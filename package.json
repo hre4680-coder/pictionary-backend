@@ -14,5 +14,13 @@
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "socket.io": "^4.8.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hre4680-coder/pictionary-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hre4680-coder/pictionary-backend/issues"
+  },
+  "homepage": "https://github.com/hre4680-coder/pictionary-backend#readme"
 }
