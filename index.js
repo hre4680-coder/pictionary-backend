@@ -8,8 +8,14 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "*",        // Nanti kita ganti dengan domain Vercel
-    methods: ["GET", "POST"]
+    origin: [
+      "https://pictioniry.netlify.app",   // ← ganti dengan URL Netlify kamu
+      "http://localhost:5500",
+      "http://127.0.0.1:5500",
+      "*"
+    ],
+    methods: ["GET", "POST"],
+    credentials: true
   }
 });
 
